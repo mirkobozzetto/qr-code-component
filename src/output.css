@@ -707,6 +707,10 @@ video {
   clear: none;
 }
 
+.m-5 {
+  margin: 1.25rem;
+}
+
 .mt-2 {
   margin-top: 0.5rem;
 }
@@ -833,6 +837,16 @@ video {
 .size-56 {
   width: 14rem;
   height: 14rem;
+}
+
+.size-48 {
+  width: 12rem;
+  height: 12rem;
+}
+
+.size-44 {
+  width: 11rem;
+  height: 11rem;
 }
 
 .h-screen {
@@ -1954,6 +1968,10 @@ video {
   padding: 1rem;
 }
 
+.p-2 {
+  padding: 0.5rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -2027,6 +2045,11 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .font-bold {
@@ -2553,8 +2576,91 @@ video {
 }
 
 @media (min-width: 640px) {
+  .sm\:size-48 {
+    width: 12rem;
+    height: 12rem;
+  }
+
+  .sm\:size-40 {
+    width: 10rem;
+    height: 10rem;
+  }
+
+  .sm\:size-\[90\%\] {
+    width: 90%;
+    height: 90%;
+  }
+
+  .sm\:size-32 {
+    width: 8rem;
+    height: 8rem;
+  }
+
+  .sm\:size-\[100\%\] {
+    width: 100%;
+    height: 100%;
+  }
+
+  .sm\:w-16 {
+    width: 4rem;
+  }
+
+  .sm\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .sm\:text-xs {
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
+
   .sm\:underline {
     text-decoration-line: underline;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:size-56 {
+    width: 14rem;
+    height: 14rem;
+  }
+
+  .md\:size-\[100\%\] {
+    width: 100%;
+    height: 100%;
+  }
+
+  .md\:text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+
+  .md\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:size-56 {
+    width: 14rem;
+    height: 14rem;
+  }
+
+  .lg\:size-\[100\%\] {
+    width: 100%;
+    height: 100%;
+  }
+
+  .lg\:size-\[50\%\] {
+    width: 50%;
+    height: 50%;
+  }
+
+  .lg\:size-\[100vw\] {
+    width: 100vw;
+    height: 100vw;
   }
 }
 

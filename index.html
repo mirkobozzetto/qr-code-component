@@ -1,39 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
   <link type="image/png" href="./images/favicon-32x32.png" rel="icon" sizes="32x32">
   <link href="./src/output.css" rel="stylesheet">
 
   <link href="https://fonts.googleapis.com" rel="preconnect">
-<link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
 
   <title>Frontend Mentor | QR code component</title>
 </head>
+
 <body class="bg-[#D5E0EF] font-outfit">
 
   <div class="flex justify-center items-center h-screen">
     <div class="inline-flex flex-col bg-white p-4 rounded-xl">
 
-      <div class="size-56">
+      <div class="md:size-56 size-44">
         <img class="rounded-xl object-contain" src="./images/image-qr-code.png" alt>
       </div>
 
-<div class="mb-3 text-center">
-  <h1 class="mt-4 font-bold text-[#252C47] text-lg leading-snug">
-    Improve your front-end
-    <br class="h-0">
-    skills by building projects
-  </h1>
-  <p class="mt-3 text-[#A2A9B3] text-sm">
-    Scan the QR code to visit Frontend<br>
-    Mentor and take your coding skills to<br>
-    the next level
-  </p>
-</div>
+      <div class="mb-3 text-center">
+        <h1 class="mt-4 font-bold text-[#252C47] text-base md:text-lg leading-snug">
+          Improve your front-end
+          <br class="h-0">
+          skills by building projects
+        </h1>
+        <p class="mt-3 text-[#A2A9B3] text-xs md:text-sm">
+          Scan the QR code to visit Frontend<br>
+          Mentor and take your coding skills to<br>
+          the next level
+        </p>
+      </div>
     </div>
   </div>
+
 </body>
+
 </html>
